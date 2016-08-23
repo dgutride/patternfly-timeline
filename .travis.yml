@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "0.10.32"
+  - "5.0.0"
 
 before_install:
   - 'git checkout -B $TRAVIS_BRANCH' # Reconcile detached HEAD
