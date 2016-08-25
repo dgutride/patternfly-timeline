@@ -9,15 +9,6 @@
   stroke-width: 1px;
 }
 
-/*.line-separator, .x-axis {
-  stroke: black;
-  fill: none;
-  stroke-width: 1px;
-}
-
-.line-separator:last-child {
-  display: none;
-}*/
 .axes {
   fill: #fafafa;
 }
@@ -84,9 +75,10 @@ text.drop:hover {
   opacity: .7;
 }
 
-.brush .extent {
-  stroke: #fff;
-  fill-opacity: .125;
+.pf-timeline-brush .extent {
+  stroke: #d1d1d1;
+  fill: #0088ce;
+  fill-opacity: .25;
   shape-rendering: crispEdges;
 }
 
@@ -99,7 +91,23 @@ text.drop:hover {
   position:absolute;
 }
 
+.context .area {
+  fill: #8b8d8f;
+  shape-rendering: crispEdges;
+}
+
 #pf-timeline-slider {
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
+}
+
+#grid-stripes rect {
+  fill: #fafafa;
+  shape-rendering: crispEdges;
+}
+
+#grid-stripes line {
+  stroke: #d1d1d1;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
 }

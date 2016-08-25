@@ -15,7 +15,7 @@ const config = {
   },
   labelWidth: 140,
   sliderWidth: 30,
-  contextHeight: 80,
+  contextHeight: 50,
   locale: null,
   axisFormat: null,
   tickFormat: [
@@ -55,9 +55,8 @@ const config = {
     tooltip = tooltip + 'Date: ' + d.date;
     return tooltip;
   },
-  zoomable: true,
   marker: true,
-  context: false,
+  context: true,
   slider: false
 };
 
